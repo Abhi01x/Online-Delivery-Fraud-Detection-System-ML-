@@ -20,3 +20,12 @@ platforms like Zomato, Blinkit, Amazon, and Flipkart.
 pip install -r requirements.txt
 python src/train.py
 streamlit run app.py
+
+📊 Prediction Output
+
+🚨 Fraudulent Order
+✅ Genuine Order
+
+👨‍💻 Author
+Abhishek Raj Patel
+AI/ML Developer | Web3 & Blockchain Enthusiast
