@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
-def load_data():
+def load_data(): 
     df = pd.read_csv("data/orders.csv")
 
     le = LabelEncoder()
