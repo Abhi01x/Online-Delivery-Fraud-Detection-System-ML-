@@ -21,7 +21,7 @@ if st.button("Check Fraud"):
         previous_orders,
         cancel_rate
     ]]
-    
+     
     result = model.predict(input_data)
 
     if result[0] == 1:
