@@ -6,7 +6,7 @@ model = joblib.load("fraud_model.pkl")
 st.title("🚚 Online Delivery Fraud Detection") 
 
 order_amount = st.number_input("Order Amount (₹)", 100, 10000, 500)
-payment_mode = st.selectbox("Payment Mode", ["Online", "COD"])
+payment_mode = st.selectbox("Payment Mode", ["Online", "COD"]) 
 delivery_attempts = st.slider("Delivery Attempts", 1, 5, 1)
 previous_orders = st.slider("Previous Orders", 0, 50, 5)
 cancel_rate = st.slider("Cancel Rate", 0.0, 1.0, 0.2)
