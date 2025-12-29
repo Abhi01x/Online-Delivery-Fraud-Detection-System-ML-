@@ -3,7 +3,7 @@ import joblib
 
 model = joblib.load("fraud_model.pkl")
 
-st.title("🚚 Online Delivery Fraud Detection")
+st.title("🚚 Online Delivery Fraud Detection") 
 
 order_amount = st.number_input("Order Amount (₹)", 100, 10000, 500)
 payment_mode = st.selectbox("Payment Mode", ["Online", "COD"])
