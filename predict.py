@@ -1,6 +1,6 @@
 import joblib
 
-model = joblib.load("fraud_model.pkl")
+model = joblib.load("fraud_model.pkl") 
 
 # Sample order
 sample_order = [[2000, 0, 3, 2, 0.6]]  # COD, high risk
