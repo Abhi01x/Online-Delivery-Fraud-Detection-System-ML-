@@ -11,7 +11,7 @@ delivery_attempts = st.slider("Delivery Attempts", 1, 5, 1)
 previous_orders = st.slider("Previous Orders", 0, 50, 5)
 cancel_rate = st.slider("Cancel Rate", 0.0, 1.0, 0.2)
 
-payment_encoded = 1 if payment_mode == "Online" else 0
+payment_encoded = 1 if payment_mode == "Online" else 0 
 
 if st.button("Check Fraud"):
     input_data = [[
