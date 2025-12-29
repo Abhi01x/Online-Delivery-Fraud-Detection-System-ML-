@@ -17,7 +17,7 @@ if st.button("Check Fraud"):
     input_data = [[
         order_amount,
         payment_encoded,
-        delivery_attempts,
+        delivery_attempts, 
         previous_orders,
         cancel_rate
     ]]
