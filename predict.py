@@ -9,5 +9,5 @@ prediction = model.predict(sample_order)
 
 if prediction[0] == 1:
     print("🚨 Fraudulent Order Detected")
-else:
+else: 
     print("✅ Genuine Order")
